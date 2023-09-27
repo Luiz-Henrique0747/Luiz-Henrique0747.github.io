@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Roboto', sans-serif; */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo{
+  flex: 10%;
+  margin-left: 10% ;
+  text-align: left;
+}
+
+.logo h1{
+  font-family: 'Lobster two', cursive;
+  font-style: italic;
+  font-size: 52px;
+  color: #180F4A;
+}
+
+.menu{
+  flex: 80%;
+  text-align: right;
+  padding: 20px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #180F4A;
+  font-size: 20px;
+  padding: 20px 16px;
+}
+
+.menu a:hover{
+  color: #001847;
+  border-top: 4px solid #004BE0;
+}
+
+#botao{
+  background-color: #001847;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+#botao:hover{
+  border: none;
+  background-color: #004BE0;
+}
+
+.header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-top: 100px;
+}
+
+.headline{
+  margin-left: 10%;
+  flex: 40%;
+}
+
+.headline h2{
+  font-weight: 900;
+  font-size: 20px;
+  color: #001847;
+  padding: 0;
+  margin: 0;
+}
+
+.headline p{
+  color: gray;
+}
+
+.contact-btn{
+  display: inline-block;
+  background-color: #001847;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.contact-btn:hover{
+  background-color: #004BE0;
+  padding: 21px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+#texto-inicial{
+  text-align: left;
+  font-size:25px ;
+}
+
+#texto-inicial-maior{
+  font-size:56px ;
+  text-align: left;
+}
+
+.img-headline{
+  margin-right: 10%;
+  flex: 40%;
+  text-align: center;
+}
+
+#logo{
+  max-width: 75%;
+}
+
+section{
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding: 5%;
+}
+
+section h2{
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: #001847;
+}
+
+.servicos{
+  display: inline-block;
+  margin-top: 5%;
+}
+
+.card{
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  border: 1px solid #004BE0;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card:hover{
+  color: #FFFFFF;
+  background-color: #004BE0;
+  border: 2px solid #001847;
+}
+
+.card:hover img{
+  display: none;
+}
+
+.card:hover .card-text{
+  display: none;
+}
+
+.texto-oculto{
+  display: none;
+}
+
+.card:hover .texto-oculto{
+  display: block;
+}
+
+.btn-card{
+  display: inline-block;
+  background-color: #004BE0;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.card:hover .btn-card{
+  background-color: #001847;
+}
+
+.btn-card:hover{
+  cursor: pointer;
+  border: 2px solid rgb(5, 182, 226);
+}
+
+footer{
+  margin-top: 100px;
+  height: 400px;
+  background-image: linear-gradient(180deg,#04328d,#012264);
+  text-align: center;
+  border-top: 5px solid #001847;
+}
+
+.logo-rodape{
+  padding: 100px;
+}
+
+.devy-rodape{
+  font-family: 'Lobster two', cursive;
+  font-style: italic;
+  font-size: 34px;
+  color: white;
+}
